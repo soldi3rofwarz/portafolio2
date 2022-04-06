@@ -30,16 +30,15 @@ a{
  
 }
 
-.gradienteTexto{
+.gradientText{
     background: var(--gradient-text);
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
-.sectionpadding{
+.sectionPadding{
     padding: 4rem 6rem;
 }
-.sectionmargin{
+.sectionMargin{
     margin: 4rem 6rem;  
 }
 .scale-up-center {
@@ -69,20 +68,20 @@ a{
   }
 
   @media screen and (max-width: 690px){
-    .sectionpadding{
+    .sectionPadding{
         padding: 4rem;
     }
-    .sectionmargin{
+    .sectionMargin{
         margin: 4rem;  
     }
   }
   
   
   @media screen and (max-width: 550px){
-    .sectionpadding{
+    .sectionPadding{
         padding: 4rem 2rem;
     }
-    .sectionmargin{
+    .sectionMargin{
         margin: 4rem 2rem;  
     }
   }

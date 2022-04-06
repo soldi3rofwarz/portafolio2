@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: row;
 }
-.GPT3NavbarSign{
+.gpt3NavbarSign{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -42,10 +42,78 @@
 
 .gpt3NavbarSign button,
 .gpt3NavbarMenuContainer button{
-    width: 152px;
-    height: 58px;
-    left: 1153px;
-    top: 55%;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 180x;
+    line-height: 25px;
     background: #ff4820;
     border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.gpt3NavbarMenu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.gpt3NavbarMenu svg{
+    cursor: pointer;
+}
+.gpt3NavbarMenuContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0, 0, 0.2);
+}
+
+.gpt3NavbarMenuContainer p{
+    margin: 1rem 0;
+}
+.gpt3NavbarMenuContainerLinksSign{
+    display: none;
+}
+
+@media screen and (max-width: 1050px){
+    .gpt3NavbarLinksContainer{
+        display: none;
+    }
+    .gpt3NavbarMenu{
+        display: flex;
+    }
+}
+@media screen and (max-width: 700px){
+   
+    .gpt3Navbar{
+        padding: 2rem 4rem;
+    }
+}
+@media screen and (max-width: 550px){
+   
+    .gpt3Navbar{
+        padding: 2rem;
+    }
+    .gpt3NavbarSign{
+        display: none;
+    }
+    .gpt3NavbarMenuContainer{
+        top: 2px;
+    }
+    .gpt3NavbarMenuContainerLinksSign{
+        display: block;
+    }
 }

@@ -1,7 +1,6 @@
 import './App.css';
 import {Brand,Cta,Navbar} from './components/index'
-import {Blogcontainer,Featurescontainer,Footercontainer,Gpt3container,Headercontainer,posscontainer} from './container/index'
-import Posscontainer from './container/possibility/poss';
+import {Blogcontainer,Featurescontainer,Footercontainer,Gpt3container,Headercontainer,Posscontainer,FutureContainer} from './container/index'
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
       </div>
       <Brand/>
       <Gpt3container/>
-      <Featurescontainer/>
+      <FutureContainer/>
       <Posscontainer/>
       <Cta/>
       <Blogcontainer/>

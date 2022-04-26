@@ -4,15 +4,15 @@ import './features.css'
 
 const Featurescontainer = ({title, text}) => {
     return ( 
-        <div className='gpt3FeaturesContainerFeatures'>
-            <div className='gpt3FeaturesContainerFeaturesTitle'>
-               <div/> 
-               <h1>{title}</h1>
-            </div>
-            <div className='gpt3FeaturesContainerFeaturesText'>
-                {text}
-            </div>
+        <div className="gpt3__features-container__feature">
+        <div className="gpt3__features-container__feature-title">
+          <div />
+          <h1>{title}</h1>
         </div>
+        <div className="gpt3__features-container_feature-text">
+          <p>{text}</p>
+        </div>
+      </div>
     );
 }
  

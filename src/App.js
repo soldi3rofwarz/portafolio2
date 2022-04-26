@@ -9,13 +9,20 @@ function App() {
         <Navbar/>
         <Headercontainer/>
       </div>
-      <Brand/>
+      <div className='brandgradiente'>
+        <Brand/>
+      </div>
+     
       <Gpt3container/>
+     
       <FutureContainer/>
       <Posscontainer/>
       <Cta/>
       <Blogcontainer/>
-      <Footercontainer/>   
+      <div className='degradado'>
+        <Footercontainer/>  
+      </div>
+      
     </div>
   );
 }
